@@ -1,8 +1,8 @@
 # trzsz
 
-trzsz is a simple file transfer tools, similar to lrzsz ( rz / sz ) but compatible with tmux.
+trzsz is a simple file transfer tools, similar to lrzsz ( rz / sz ), and compatible with tmux.
 
-which works with iTerm2 and has a nice progress bar.
+trzsz works with iTerm2, and has a nice progress bar.
 
 Website: [https://trzsz.github.io](https://trzsz.github.io)
 
@@ -106,7 +106,7 @@ Additionally, [iTerm2-zmodem](https://github.com/RobberPhex/iTerm2-zmodem) is no
   ```
   usage: trz [-h] [-v] [-q] [-y] [-b] [-e] [-B N] [-t N] [path]
 
-  Receive file(s), similar to rz but compatible with tmux.
+  Receive file(s), similar to rz and compatible with tmux.
 
   positional arguments:
     path               path to save file(s). (default: current directory)
@@ -127,7 +127,7 @@ Additionally, [iTerm2-zmodem](https://github.com/RobberPhex/iTerm2-zmodem) is no
   ```
   usage: tsz [-h] [-v] [-q] [-y] [-b] [-e] [-B N] [-t N] file [file ...]
 
-  Send file(s), similar to sz but compatible with tmux.
+  Send file(s), similar to sz and compatible with tmux.
 
   positional arguments:
     file               file(s) to be sent
