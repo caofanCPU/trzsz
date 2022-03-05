@@ -38,13 +38,13 @@ Additionally, [iTerm2-zmodem](https://github.com/RobberPhex/iTerm2-zmodem) is no
 
 ### Server side
 
-#### Install [trzsz-svr](https://pypi.org/project/trzsz-svr)
+#### Install [trzsz](https://pypi.org/project/trzsz)
   ```
-  sudo python3 -m pip install --upgrade trzsz-libs trzsz-svr
+  sudo python3 -m pip install --upgrade --force-reinstall trzsz
   ```
   * Also supports Python2:
     ```
-    sudo pip install --upgrade trzsz-libs trzsz-svr
+    sudo pip install --upgrade --force-reinstall trzsz
     ```
   * Can be installed without `sudo`, but need to add the installation path ( may be `~/.local/bin` ) to the PATH environment.
   * `trz -v` or `tsz -v` output the version of trzsz means successfully installed. Otherwise, check the output of the previous installation.
@@ -54,12 +54,8 @@ Additionally, [iTerm2-zmodem](https://github.com/RobberPhex/iTerm2-zmodem) is no
 
 #### Install [trzsz-iterm2](https://pypi.org/project/trzsz-iterm2)
   ```
-  sudo python3 -m pip install --upgrade trzsz-libs trzsz-iterm2
+  sudo python3 -m pip install --upgrade --force-reinstall trzsz-iterm2
   ```
-  * Also supports Python2:
-    ```
-    sudo pip install --upgrade trzsz-libs trzsz-iterm2
-    ```
   * `which trzsz-iterm2` output `/usr/local/bin/trzsz-iterm2` means successfully installed. if not:
     * `which trzsz-iterm2` shows nothing, check the output of the previous installation.
     * `which trzsz-iterm2` shows another path, create a soft link:\
